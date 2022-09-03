@@ -6,9 +6,9 @@
 <div class="Main">
   <div class="header">
     <div class="prestDisney">
-      <h3 >Disney presenta</h3>
+      <h3 >Disney presenta oooo</h3>
     </div>
-    <img src="../public/images/background4.png"  class="imgMoana" alt="">
+    <!-- <img src="../public/images/background4.png"  class="imgMoana" alt=""> -->
     <!-- <div class="principal" >
       <a class="name" href="https://fontmeme.com/disney-font/"><img src="https://fontmeme.com/permalink/220902/13aac854a6aa362f3a276698ec031f69.png" alt="disney-font" border="0"></a>
     </div> -->
@@ -64,10 +64,11 @@
       top: 0px;
       width: 100%;
       text-align: center;
-      position: absolute;
+      /* position: absolute; */
       z-index: 1;
     }
     .Main .header .prestDisney h3{
+      font-family: Moanas;
         color:var(--secondary-background);
       font-size: 90%;
     }
@@ -79,8 +80,8 @@
       width: 100%;
       text-align: center;
       align-items: center;
-      position: absolute;
-      top: 470px;
+      /* position: absolute; */
+      top: 500px;
       /* font-size: 60px; */
       /* animation: nameM 5s; */
     }

@@ -31,7 +31,7 @@ module.exports = {
         use:  [{
             loader: 'file-loader',
             options: {
-              name: './public/images/[contenthash].[ext]'
+              name: 'images/[contenthash].[ext]'
             }
         }]
       },
