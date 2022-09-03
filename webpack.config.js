@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['*', '.mjs', '.js', '.svelte']
+    extensions: ['*', '.mjs', '.js', '.svelte', '.jsx']
   },
   module: {
     rules: [
@@ -34,7 +34,7 @@ module.exports = {
               name: 'images/[contenthash].[ext]'
             }
         }]
-      },
+      }
     ]
   },
   plugins: [
