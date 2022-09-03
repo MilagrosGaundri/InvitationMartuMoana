@@ -26,6 +26,15 @@ module.exports = {
           loader: 'svelte-loader'
         }
       }
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use:  [{
+            loader: 'file-loader',
+            options: {
+              name: './public/images/[contenthash].[ext]'
+            }
+        }]
+      },
     ]
   },
   plugins: [
