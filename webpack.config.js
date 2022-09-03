@@ -1,12 +1,14 @@
 const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'js/bundle.[contenthash].js'
   },
+  mode: 'production',
   resolve: {
     extensions: ['*', '.mjs', '.js', '.svelte', '.jsx', '.png']
   },
@@ -38,6 +40,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       inject: true,
       template: './public/index.html',

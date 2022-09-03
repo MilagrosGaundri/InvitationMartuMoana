@@ -31,9 +31,10 @@
     src: url("../fonts/Moanas.ttf");
   }
   @font-face {
-    font-family: Shlop;
+    font-family: "Shlop";
     src: url("../fonts/shlop.ttf");
   }
+  @import url('../fonts/shlop.ttf?family=Shlop:wght@300;400&display=swap');
   /* @import url('https://fontlibrary.org//face/waltograph-disney?family=disney:wght@300;400&display=swap'); */
   /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Pacifico&display=swap'); */
@@ -45,7 +46,7 @@
     color: var(--secondary-background);
     margin: 0;
     padding: 0;
-    font-family: Shlop;
+    font-family: "Shlop";
     font-weight: normal;
     font-style: normal;
     text-align: center;
