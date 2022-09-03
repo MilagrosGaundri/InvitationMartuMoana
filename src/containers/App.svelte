@@ -24,7 +24,7 @@
     /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Pacifico&display=swap'); */
     :global(body){
-        background-color: var(--tertiary-background);
+        background-color: var(--primary-background);
         /* background-image: url("../public/images/backgroundMoana5.jpeg");
         background-repeat: no-repeat;
         background-size:100%;  */
