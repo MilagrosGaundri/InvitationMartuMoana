@@ -50,6 +50,7 @@
     font-weight: normal;
     font-style: normal;
     text-align: center;
+    max-width: 20em;
   }
   :global(h1, h2, h3) {
     color: var(--secondary-background);
