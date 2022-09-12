@@ -46,14 +46,14 @@
     color: var(--secondary-background);
     margin: 0;
     padding: 0;
-    font-family: "Shlop";
+    font-family: Moanas;
     font-weight: normal;
     font-style: normal;
     text-align: center;
   }
   :global(h1, h2, h3) {
     color: var(--secondary-background);
-    font-family: Shlop;
+    font-family: Moanas;
     font-weight: normal;
     font-style: normal;
     text-align: center;
